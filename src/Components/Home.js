@@ -43,8 +43,7 @@ function Home() {
                      
                 />
                 <Product 
-                title = "
-                Noise ColorFit Pro 3 Spo2 Smart Watch with Built-in Oximeter Function (for Blood Oxygen Measurement), 1.55 HD Display with Sleep & Stress Monitor"
+                title = "Noise ColorFit Pro 3 Spo2 Smart Watch with Built-in Oximeter Function (for Blood Oxygen Measurement), 1.55 HD Display with Sleep & Stress Monitor"
                 id = "5"
                 price = {4499.00}
                 ratings = {5}

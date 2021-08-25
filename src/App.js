@@ -44,7 +44,7 @@ function App() {
             
           </Route>
           <Route path  ="/login">
-          <Header />
+          
             <Login/>
             </Route>
             <Route path = "/">
