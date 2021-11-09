@@ -6,16 +6,11 @@ import { useStateValue } from './StateProvider'
 function Product({ title, price, ratings, image  , id}) {
      const [{user} , dispatch] = useStateValue();
 
-     const pleaseLogin = () =>{
-         
-             alert("please login to add to basket");
-         
-
-         
-     }
+     
     const addToBasket = () => {
-
-        dispatch({
+        if(user){
+        dispatch(
+            {
             type : 'ADD_TO_BASKET',
             item : {
            id : id,
@@ -25,6 +20,10 @@ function Product({ title, price, ratings, image  , id}) {
            ratings : ratings,
             },
         });
+    }
+    else {
+        alert("please sign in to add to basket");
+    }
     };
     return (
         <div className="product">
