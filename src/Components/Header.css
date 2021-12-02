@@ -3,6 +3,7 @@
     display:flex;
     align-items: center;
     position: sticky;
+    
     top: 0;
     z-index: 100;
 }
@@ -58,3 +59,9 @@ text-decoration: none;
 margin-left: 10px;
 margin-right: 10px; 
 }
+@media  screen and (max-width: 800px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+    }
+  }

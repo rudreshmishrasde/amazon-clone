@@ -43,3 +43,8 @@ background: #f0c14b;
     width: 100%;
     
 }
+@media  screen and (max-width: 300px) {
+    .login {
+      width: 90%;
+    }
+  }

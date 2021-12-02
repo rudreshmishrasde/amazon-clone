@@ -23,3 +23,11 @@
     border-color: #a88734  ;
     color: #111;
 }
+@media  screen and (max-width: 300px) {
+    .CheckoutProduct {
+      width: 90%;
+      margin-top: 5%;
+      border: 2px solid rgb(49, 187, 230);
+      
+    }
+  }

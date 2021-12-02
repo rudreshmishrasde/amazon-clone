@@ -20,3 +20,10 @@
     background-color: #f0c14b;
     width: 100%;
 }
+@media  screen and (max-width: 800px) {
+    .subTotal {
+     width: 90%;
+     margin-top: 22%;
+     
+    }
+  }

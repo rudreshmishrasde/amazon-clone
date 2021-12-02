@@ -22,3 +22,11 @@ height: max-content;
 
     height: 50px;
 }
+@media  screen and (max-width: 550px) {
+    .checkout {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      
+    }
+  }
